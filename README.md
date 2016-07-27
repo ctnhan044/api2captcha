@@ -1,5 +1,5 @@
 # api2captcha
-Use 2captcha.com to bypass captcha
+Use api2captcha to bypass captcha. This api support on 2captcha.com.
 
 #Use Guide
 ```
