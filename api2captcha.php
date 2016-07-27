@@ -15,19 +15,19 @@ class Api2Captcha {
     protected $result;
     protected $error;
     private $errors = array(
-        'ERROR_NO_SLOT_AVAILABLE' => 'Нет свободных работников в данный момент, попробуйте позже либо повысьте свою максимальную ставку здесь',
-        'ERROR_ZERO_CAPTCHA_FILESIZE' => 'Размер капчи которую вы загружаете менее 100 байт',
-        'ERROR_TOO_BIG_CAPTCHA_FILESIZE' => 'Ваша капча имеет размер более 100 килобайт',
-        'ERROR_ZERO_BALANCE' => 'Нулевой либо отрицательный баланс',
-        'ERROR_IP_NOT_ALLOWED' => 'Запрос с этого IP адреса с текущим ключом отклонен. Пожалуйста смотрите раздел управления доступом по IP',
-        'ERROR_CAPTCHA_UNSOLVABLE' => 'Не смог разгадать капчу',
-        'ERROR_BAD_DUPLICATES' => 'Функция 100% распознавания не сработала и-за лимита попыток',
-        'ERROR_NO_SUCH_METHOD' => 'Вы должны слать параметр method в вашем запросе к API, изучите документацию',
-        'ERROR_IMAGE_TYPE_NOT_SUPPORTED' => 'Невозможно определить тип файла капчи, принимаются только форматы JPG, GIF, PNG',
-        'ERROR_KEY_DOES_NOT_EXIST' => 'Использован несуществующий key',
-        'ERROR_WRONG_USER_KEY' => 'Неверный формат параметра key, должно быть 32 символа',
-        'ERROR_WRONG_ID_FORMAT' => 'Неверный формат ID каптчи. ID должен содержать только цифры',
-        'ERROR_WRONG_FILE_EXTENSION' => 'Ваша каптча имеет неверное расширение, допустимые расширения jpg,jpeg,gif,png',
+        'ERROR_NO_SLOT_AVAILABLE' => 'No free workers at the moment, try again later or promote your maximum bid here',
+        'ERROR_ZERO_CAPTCHA_FILESIZE' => 'CAPTCHA size that you load less than 100 bytes',
+        'ERROR_TOO_BIG_CAPTCHA_FILESIZE' => 'Your captcha is larger than 100 kilobytes',
+        'ERROR_ZERO_BALANCE' => 'Zero or negative balance',
+        'ERROR_IP_NOT_ALLOWED' => 'The request to this key with the current IP address rejected. Please see the section Access Control over IP',
+        'ERROR_CAPTCHA_UNSOLVABLE' => 'Unable to solve the CAPTCHA',
+        'ERROR_BAD_DUPLICATES' => 'Function 100% recognition did not work, and because of attempts to limit',
+        'ERROR_NO_SUCH_METHOD' => 'You must send a method parameter in your request to the API, refer to the documentation',
+        'ERROR_IMAGE_TYPE_NOT_SUPPORTED' => 'Unable to determine the type of captcha file, accepted only a JPG, GIF, PNG',
+        'ERROR_KEY_DOES_NOT_EXIST' => 'We used a non-existent key',
+        'ERROR_WRONG_USER_KEY' => 'Invalid format setting key, must be 32 characters',
+        'ERROR_WRONG_ID_FORMAT' => 'Invalid format ID captcha. ID must contain only digits',
+        'ERROR_WRONG_FILE_EXTENSION' => 'Your captcha is incorrect extension, allowed extensions jpg, jpeg, gif, png',
     );
     private $captcha_id;
 
