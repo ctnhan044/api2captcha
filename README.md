@@ -1,7 +1,7 @@
 # api2captcha
 Use api2captcha to bypass captcha. This api support on 2captcha.com.
 
-#Use Guide
+###Use Guide
 ```
 <?php
 include 'api2captcha.php';
